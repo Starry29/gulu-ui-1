@@ -8,6 +8,8 @@ import CarouselItem from '../lib/Carousel/CarouselItem.vue';
 import Tag from '../lib/Tag/Tag.vue';
 import ComponentDesc from '../Common/ComponentDesc.vue';
 import Button from '../lib/Button.vue';
+import Popover from '../lib/popover.vue';
+import Dialog from '../lib/Dialog.vue';
 
 const components: { [propName: string]: Component } = {
     GInput: Input,
@@ -18,7 +20,9 @@ const components: { [propName: string]: Component } = {
     GCarousel: Carousel,
     GCarouselItem: CarouselItem,
     GTag: Tag,
-    ComponentDesc
+    ComponentDesc,
+    GPopover: Popover,
+    GDialog: Dialog,
 };
 export default {
     install: (Vue: App) => {

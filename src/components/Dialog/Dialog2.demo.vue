@@ -11,7 +11,7 @@
 import {
   openDialog
 } from "../../lib/index";
-import GBotton from '../../lib/Button.vue'
+import GBotton from '../../lib/Button.vue';
 import {
   ref,
   h

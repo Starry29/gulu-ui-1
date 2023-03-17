@@ -4,33 +4,33 @@
 <template>
   <!--    -->
   <div class="placeTop">
-    <Popover position="top">
+    <g-popover position="top">
       <template #content> 从上面弹出内容 </template>
       <g-button>top</g-button>
-    </Popover>
+    </g-popover>
   </div>
   <!--  -->
   <div class="placeMiddle">
-    <Popover position="left">
+    <g-popover position="left">
       <template #content> 从左边弹出内容 </template>
       <g-button>left</g-button>
-    </Popover>
+    </g-popover>
     <!--    -->
-    <Popover position="right">
+    <g-popover position="right">
       <template #content> 从右边弹出内容 </template>
       <g-button>right</g-button>
-    </Popover>
+    </g-popover>
   </div>
   <!--  -->
   <div class="placeBottom">
-    <Popover position="bottom">
+    <g-popover position="bottom">
       <template #content> 从下面弹出内容 </template>
       <g-button>bottom</g-button>
-    </Popover>
+    </g-popover>
   </div>
 </template>
 
 <script lang='ts' setup>
-import Popover from "../../lib/popover.vue";
-import GBotton from '../../lib/Button.vue'
+import GPopover from '../../lib/popover.vue';
+import GBotton from '../../lib/Button.vue';
 </script>

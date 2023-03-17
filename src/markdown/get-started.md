@@ -5,7 +5,7 @@
 
 ```javascript
 import {GButton, GInput, GInputPassword, GInputTextArea, GSwitch, GCarousel, 
-GCarouselItem, GTag, Tabs, Tab, Dialog, openDialog} from "gulu-ui-1"
+GCarouselItem, GTag, GPopover, Tabs, Tab, GDialog, openDialog} from "gulu-ui-1"
 ```
 
 就可以使用我提供的组件了。
@@ -17,14 +17,14 @@ GCarouselItem, GTag, Tabs, Tab, Dialog, openDialog} from "gulu-ui-1"
 ```html
 <template>
   <div>
-    <Dialog>对话框</Dialog>
+    <g-dialog>对话框</g-dialog>
   </div>
 </template>
 <script>
-import {GButton, GInput, GInputPassword, GInputTextArea, GSwitch, GCarousel,
-GCarouselItem, GTag, Tabs, Tab, Dialog, openDialog} from "gulu-ui-1"
+import {GButton, GInput, GInputPassword, GInputTextArea, GSwitch, GCarousel, 
+GCarouselItem, GTag, GPopover, Tabs, Tab, GDialog, openDialog} from "gulu-ui-1"
 export default {
-  components: {Dialog}
+  components: {GDialog}
 }
 </script>
 ```

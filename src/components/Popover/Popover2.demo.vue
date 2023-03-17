@@ -3,26 +3,26 @@
 </demo>
 <template>
   <!--  点击触发-->
-  <Popover :trigger="'click'" style="margin-right: 30px">
+  <g-popover :trigger="'click'" style="margin-right: 30px">
     <template #content>
       点击触发的内容
     </template>
     <g-button>
       Click me
     </g-button>
-  </Popover>
+  </g-popover>
   <!--  悬浮触发-->
-  <Popover :trigger="'hover'">
+  <g-popover :trigger="'hover'">
     <template #content>
       悬浮触发的内容
     </template>
     <g-button>
       Hover me
     </g-button>
-  </Popover>
+  </g-popover>
 </template>
 
 <script lang='ts' setup>
-import Popover from "../../lib/popover.vue";
-import GBotton from '../../lib/Button.vue'
+import GPopover from '../../lib/popover.vue';
+import GBotton from '../../lib/Button.vue';
 </script>
