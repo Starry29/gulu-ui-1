@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="topnavAndBanner">
-      <Topnav />
+      <Topnav/>
       <div class="banner">
         <h1>Windmill UI</h1>
         <h2>基于 Vue 3，一个面向学习者的 UI 框架</h2>
