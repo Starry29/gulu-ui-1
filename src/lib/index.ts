@@ -1,6 +1,12 @@
-export { default as Switch } from './Switch.vue';
-export { default as Button } from './Button.vue';
-export { default as Tabs } from './Tabs.vue';
-export { default as Tab } from './Tab.vue';
-export { default as Dialog } from './Dialog.vue';
+export { default as GSwitch } from '../lib/Switch.vue';
+export { default as GButton } from '../lib/Button.vue';
+export { default as Tabs } from '../lib/Tabs.vue';
+export { default as Tab } from '../lib/Tab.vue';
+export { default as GDialog } from '../lib/Dialog.vue';
 export { openDialog as openDialog } from './openDialog';
+export { default as GInput } from '../lib/input/Input.vue';
+export { default as GInputPassword } from '../lib/input/InputPassword.vue';
+export { default as GInputTextArea } from '../lib/input/textArea.vue';
+export { default as GCarousel } from '../lib/Carousel/Carousel.vue';
+export { default as GCarouselItem } from '../lib/Carousel/CarouselItem.vue';
+export { default as GPopover } from '../lib/popover.vue';

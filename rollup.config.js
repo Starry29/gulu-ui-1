@@ -12,15 +12,10 @@ export default {
     globals: {
       vue: 'Vue'
     },
-    name: 'Gulu',
-    file: 'dist/lib/gulu.js',
+    name: 'windmill-ui-g',
+    file: 'dist/lib/Windmill-ui-g.js',
     format: 'umd',
-    plugins: [terser()]
-  }, {
-    name: 'Gulu',
-    file: 'dist/lib/gulu.esm.js',
-    format: 'es',
-    plugins: [terser()]
+    plugins: []
   }],
   plugins: [
     scss({ include: /\.scss$/, sass: dartSass }),

@@ -19,16 +19,16 @@
       @keyup.enter="handleInputConfirm"
       @blur="handleInputConfirm"
   />
-  <Button v-else class="button-new-tag ml-2" size="small" @click="showInput">
+  <g-button v-else class="g-button-new-tag ml-2" size="small" @click="showInput">
     + New Tag
-  </Button>
+  </g-button>
 </template>
 
 <script lang="ts" setup>
 import {ref} from 'vue';
 import GTag from '../../lib/Tag.vue';
 import GInput from '../../lib/input/Input.vue';
-import { Button } from "../../lib/index";
+import GButton from '../../lib/Button.vue';;
 const inputValue = ref('');
 const dynamicTags = ref(['Tag 1', 'Tag 2', 'Tag 3']);
 const inputVisible = ref(false);

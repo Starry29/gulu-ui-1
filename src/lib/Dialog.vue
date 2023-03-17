@@ -1,19 +1,19 @@
 <template>
   <template v-if="visible">
     <Teleport to="body">
-      <div class="gulu-dialog-overlay" @click="onClickOverlay"></div>
-      <div class="gulu-dialog-wrapper">
-        <div class="gulu-dialog">
+      <div class="g-dialog-overlay" @click="onClickOverlay"></div>
+      <div class="g-dialog-wrapper">
+        <div class="g-dialog">
           <header>
             <slot name="title" />
-            <span @click="close" class="gulu-dialog-close"></span>
+            <span @click="close" class="g-dialog-close"></span>
           </header>
           <main>
             <slot name="content" />
           </main>
           <footer>
-            <Button level="main" @click="onClickOk">OK</Button>
-            <Button @click="onClickCancel">Cancel</Button>
+            <g-button level="main" @click="onClickOk">OK</g-button>
+            <g-button @click="onClickCancel">Cancel</g-button>
           </footer>
         </div>
       </div>
@@ -22,7 +22,7 @@
 </template>
 
 <script lang="ts" setup="props, context">
-import Button from "./Button.vue";
+import GButton from "../lib/Button.vue";
 
 const props = defineProps<{
   visible?: boolean;
@@ -58,7 +58,7 @@ const onClickCancel = () => {
 $radius: 4px;
 $border-color: #d9d9d9;
 
-.gulu-dialog {
+.g-dialog {
   background: white;
   border-radius: $radius;
   box-shadow: 0 0 3px fade_out(black, 0.5);
