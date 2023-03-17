@@ -6,7 +6,7 @@
         <h1> Windmill UI </h1>
         <h2>基于 Vue 3，一个面向学习者的 UI 框架</h2>
         <p class="actions">
-          <a href="git@github.com:Starry29/gulu-ui-1.git">GitHub</a>
+          <a href="https://github.com/Starry29/gulu-ui-1.git">GitHub</a>
           <router-link to="/doc">开始</router-link>
         </p>
       </div>
