@@ -5,7 +5,7 @@
 
 ```javascript
 import {GButton, GInput, GInputPassword, GInputTextArea, GSwitch, GCarousel, 
-GCarouselItem, GTag, GPopover, Tabs, Tab, GDialog, openDialog} from "gulu-ui-1"
+GCarouselItem, GTag, GPopover, Tabs, Tab, GDialog, openDialog} from "windmill-ui-1"
 ```
 
 就可以使用我提供的组件了。
@@ -22,7 +22,7 @@ GCarouselItem, GTag, GPopover, Tabs, Tab, GDialog, openDialog} from "gulu-ui-1"
 </template>
 <script>
 import {GButton, GInput, GInputPassword, GInputTextArea, GSwitch, GCarousel, 
-GCarouselItem, GTag, GPopover, Tabs, Tab, GDialog, openDialog} from "gulu-ui-1"
+GCarouselItem, GTag, GPopover, Tabs, Tab, GDialog, openDialog} from "windmill-ui-1"
 export default {
   components: {GDialog}
 }
