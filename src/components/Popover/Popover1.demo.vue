@@ -32,5 +32,5 @@
 
 <script lang='ts' setup>
 import GPopover from '../../lib/popover.vue';
-import GBotton from '../../lib/Button.vue';
+import GButton from '../../lib/Button.vue';
 </script>

@@ -19,11 +19,11 @@
 <script lang="ts">
 import GDialog from '../../lib/Dialog.vue';
 import { ref } from 'vue';
-import GBotton from '../../lib/Button.vue';
+import GButton from '../../lib/Button.vue';
 export default {
   components: {
     GDialog,
-    GBotton
+    GButton
   },
   setup() {
     const x = ref(false)

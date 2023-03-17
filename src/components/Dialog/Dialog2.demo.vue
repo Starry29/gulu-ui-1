@@ -11,14 +11,14 @@
 import {
   openDialog
 } from "../../lib/index";
-import GBotton from '../../lib/Button.vue';
+import GButton from '../../lib/Button.vue';
 import {
   ref,
   h
 } from 'vue'
 export default {
   components: {
-    GBotton
+    GButton
   },
   setup() {
     const showDialog = () => {
