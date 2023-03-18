@@ -12,8 +12,8 @@
             <slot name="content" />
           </main>
           <footer>
-            <g-button level="main" @click="onClickOk">OK</g-button>
-            <g-button @click="onClickCancel">Cancel</g-button>
+            <Button level="main" @click="onClickOk">OK</Button>
+            <Button @click="onClickCancel">Cancel</Button>
           </footer>
         </div>
       </div>
@@ -22,7 +22,7 @@
 </template>
 
 <script lang="ts" setup="props, context">
-import GButton from "../lib/Button.vue";
+import Button from "../lib/Button.vue";
 
 const props = defineProps<{
   visible?: boolean;

@@ -3,10 +3,10 @@
 </demo>
 <template>
 <div>
-  <g-button loading>加载中</g-button>
-  <g-button>加载完毕</g-button>
+  <Button loading>加载中</Button>
+  <Button>加载完毕</Button>
 </div>
 </template>
 <script lang="ts" setup>
-import GButton from '../../lib/Button.vue';
+import Button from "../../lib/Button.vue";
 </script>

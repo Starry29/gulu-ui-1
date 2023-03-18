@@ -1,23 +1,23 @@
 <demo>支持不同尺寸</demo>
 <template>
-  <g-row>
-    <g-tag class="ml-2" size="large">Large</g-tag>
-    <g-tag class="ml-2">Default</g-tag>
-    <g-tag class="ml-2" size="small">Small</g-tag>
-  </g-row>
+  <div>
+    <Tag class="ml-2" size="large">Large</Tag>
+    <Tag class="ml-2">Default</Tag>
+    <Tag class="ml-2" size="small">Small</Tag>
+  </div>
 
-  <g-row class="mt-4">
-    <g-tag class="ml-2" size="large" closable>Large</g-tag>
-    <g-tag class="ml-2" closable>Default</g-tag>
-    <g-tag class="ml-2" size="small" closable>Small</g-tag>
-  </g-row>
+  <div class="mt-4">
+    <Tag class="ml-2" size="large" closable>Large</Tag>
+    <Tag class="ml-2" closable>Default</Tag>
+    <Tag class="ml-2" size="small" closable>Small</Tag>
+  </div>
 </template>
 
 <script lang='ts' setup>
-import GTag from '../../lib/Tag.vue';
+import Tag from '../../lib/Tag.vue';
 </script>
 <style lang='scss' scoped>
-  g-row {
+  div {
     display: flex;
     flex-wrap: wrap;
     .mt-4{

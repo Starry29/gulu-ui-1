@@ -5,25 +5,25 @@
 <div style="width: 100%;height: 50px;text-align: center; line-height: 50px;color:#999">
     <span>arrow为default</span>
   </div>
-  <g-carousel arrow="default">
-    <g-carousel-item v-for="item in 6" :key="item">
+  <Carousel arrow="default">
+    <CarouselItem class="g-carousel-item" v-for="item in 6" :key="item">
       <h3 style="text-align: center;vertical-align: middle;">{{ item }}</h3>
-    </g-carousel-item>
-  </g-carousel>
+    </CarouselItem>
+  </Carousel>
   <div style="width: 100%;height: 50px;text-align: center; line-height: 50px;color:#999">
     <span>arrow为always</span>
   </div>
-  <g-carousel arrow="always">
-    <g-carousel-item v-for="item in 6" :key="item">
+  <Carousel arrow="always">
+    <CarouselItem class="g-carousel-item" v-for="item in 6" :key="item">
       <h3 style="text-align: center;vertical-align: middle;">{{ item }}</h3>
-    </g-carousel-item>
-  </g-carousel>
+    </CarouselItem>
+  </Carousel>
 </template>
 
 <script lang='ts' setup>
 import { onMounted } from 'vue';
-import GCarousel from '../../lib/Carousel/Carousel.vue';
-import GCarouselItem from '../../lib/Carousel/CarouselItem.vue'
+import Carousel from '../../lib/Carousel/Carousel.vue';
+import CarouselItem from '../../lib/Carousel/CarouselItem.vue'
 </script>
 
 <style lang='scss' scoped>

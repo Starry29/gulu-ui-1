@@ -3,11 +3,11 @@
 </demo>
 
 <template>
-<g-switch v-model:value="bool"></g-switch>
+<Switch v-model:value="bool"></Switch>
 </template>
 
 <script lang="ts" setup>
-import GSwitch from '../../lib/Switch.vue';
+import Switch from '../../lib/Switch.vue';
 import {
   ref
 } from 'vue';

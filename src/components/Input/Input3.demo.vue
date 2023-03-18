@@ -3,13 +3,13 @@
 </demo>
 <template>
   <div>
-    <g-input v-model:value="textValue" placeholder="disable" disabled></g-input>
+    <Input v-model:value="textValue" placeholder="disable" disabled></Input>
   </div>
 </template>
 
 <script lang='ts' setup>
 import {ref} from 'vue';
-import GInput from "../../lib/input/Input.vue";
+import Input from "../../lib/input/Input.vue";
 const textValue = ref('')
 </script>
 

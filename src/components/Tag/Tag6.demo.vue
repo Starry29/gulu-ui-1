@@ -1,6 +1,6 @@
 <demo>支持动态编辑标签</demo>
 <template>
-  <g-tag
+  <Tag
       v-for="tag in dynamicTags"
       :key="tag"
       class="ml-2"
@@ -9,8 +9,8 @@
       @close="handleClose(tag)"
   >
     {{ tag }}
-  </g-tag>
-  <g-input
+  </Tag>
+  <Input
       v-if="inputVisible"
       ref="InputRef"
       v-model:value="inputValue"
@@ -19,16 +19,16 @@
       @keyup.enter="handleInputConfirm"
       @blur="handleInputConfirm"
   />
-  <g-button v-else class="g-button-new-tag ml-2" size="small" @click="showInput">
+  <Button v-else class="g-button-new-tag ml-2" size="small" @click="showInput">
     + New Tag
-  </g-button>
+  </Button>
 </template>
 
 <script lang="ts" setup>
 import {ref} from 'vue';
-import GTag from '../../lib/Tag.vue';
-import GInput from '../../lib/input/Input.vue';
-import GButton from '../../lib/Button.vue';;
+import Tag from '../../lib/Tag.vue';
+import Input from '../../lib/input/Input.vue';
+import Button from '../../lib/Button.vue';;
 const inputValue = ref('');
 const dynamicTags = ref(['Tag 1', 'Tag 2', 'Tag 3']);
 const inputVisible = ref(false);

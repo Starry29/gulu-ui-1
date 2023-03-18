@@ -1,7 +1,7 @@
 <demo>圆形标签</demo>
 <template>
   <div class="flex flex-wrap gap-2 my-2">
-    <g-tag
+    <Tag
         v-for="item in items"
         :key="item.label"
         :type="item.type"
@@ -10,10 +10,10 @@
         round
     >
       {{ item.label }}
-    </g-tag>
+    </Tag>
   </div>
   <div class="flex flex-wrap gap-2">
-    <g-tag
+    <Tag
         v-for="item in items"
         :key="item.label"
         :type="item.type"
@@ -22,10 +22,10 @@
         round
     >
       {{ item.label }}
-    </g-tag>
+    </Tag>
   </div>
   <div class="flex flex-wrap gap-2 my-2">
-    <g-tag
+    <Tag
         v-for="item in items"
         :key="item.label"
         :type="item.type"
@@ -34,13 +34,13 @@
         round
     >
       {{ item.label }}
-    </g-tag>
+    </Tag>
   </div>
 </template>
 
 <script lang="ts" setup>
 import { ref } from 'vue';
-import GTag from '../../lib/Tag.vue';
+import Tag from '../../lib/Tag.vue';
 const items = ref([
   {type: '', label: 'Tag 1'},
   {type: 'success', label: 'Tag 2'},

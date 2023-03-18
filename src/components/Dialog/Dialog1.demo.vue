@@ -3,8 +3,8 @@
 </demo>
 <template>
 <div>
-  <g-button @click="toggle">打开对话框</g-button>
-  <g-dialog v-model:visible="x" :closeOnClickOverlay="false" :ok="f1" :cancel="f2">
+  <Button @click="toggle">打开对话框</Button>
+  <Dialog v-model:visible="x" :closeOnClickOverlay="false" :ok="f1" :cancel="f2">
     <template v-slot:content>
       <strong>标题</strong>
       <div>内容</div>
@@ -12,18 +12,18 @@
     <template v-slot:title>
       <strong>加粗的标题</strong>
     </template>
-  </g-dialog>
+  </Dialog>
 </div>
 </template>
 
 <script lang="ts">
-import GDialog from '../../lib/Dialog.vue';
+import Dialog from '../../lib/Dialog.vue';
 import { ref } from 'vue';
-import GButton from '../../lib/Button.vue';
+import Button from '../../lib/Button.vue';
 export default {
   components: {
-    GDialog,
-    GButton
+    Dialog,
+    Button
   },
   setup() {
     const x = ref(false)

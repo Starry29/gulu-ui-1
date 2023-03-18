@@ -1,11 +1,10 @@
 {
-  "name": "windmill-ui-g",
+  "name": "windmill-ui-001",
   "version": "0.0.4",
   "files": [
     "dist/lib/*"
   ],
   "main": "dist/lib/gulu.js",
-  "module": "dist/lib/gulu.esm.js",
   "type": "module",
   "scripts": {
     "dev": "vite",

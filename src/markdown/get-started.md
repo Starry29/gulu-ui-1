@@ -4,8 +4,8 @@
 然后在你的代码中写入下面的代码
 
 ```javascript
-import {GButton, GInput, GInputPassword, GInputTextArea, GSwitch, GCarousel, 
-GCarouselItem, GTag, GPopover, Tabs, Tab, GDialog, openDialog} from "windmill-ui-g"
+import {Button, Input, InputPassword, InputTextArea, Switch, Carousel, 
+CarouselItem, Tag, Popover, Tabs, Tab, Dialog, openDialog} from "windmill-ui-001"
 ```
 
 就可以使用我提供的组件了。
@@ -21,10 +21,10 @@ GCarouselItem, GTag, GPopover, Tabs, Tab, GDialog, openDialog} from "windmill-ui
   </div>
 </template>
 <script>
-import {GButton, GInput, GInputPassword, GInputTextArea, GSwitch, GCarousel, 
-GCarouselItem, GTag, GPopover, Tabs, Tab, GDialog, openDialog} from "windmill-ui-g"
+import {Button, Input, InputPassword, InputTextArea, Switch, Carousel, 
+CarouselItem, Tag, Popover, Tabs, Tab, Dialog, openDialog} from "windmill-ui-001"
 export default {
-  components: {GDialog}
+  components: {Dialog}
 }
 </script>
 ```

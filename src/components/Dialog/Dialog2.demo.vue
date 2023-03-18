@@ -3,7 +3,7 @@
 </demo>
 <template>
 <div>
-  <g-button @click="showDialog">打开对话框</g-button>
+  <Button @click="showDialog">打开对话框</Button>
 </div>
 </template>
 
@@ -11,14 +11,14 @@
 import {
   openDialog
 } from "../../lib/index";
-import GButton from '../../lib/Button.vue';
+import Button from '../../lib/Button.vue';
 import {
   ref,
   h
 } from 'vue'
 export default {
   components: {
-    GButton
+    Button
   },
   setup() {
     const showDialog = () => {

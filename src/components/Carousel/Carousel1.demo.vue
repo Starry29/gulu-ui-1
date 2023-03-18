@@ -5,28 +5,28 @@
   <div style="width: 100%;height: 50px;text-align: center; line-height: 50px;color:#999">
     <span>trigger默认为click</span>
   </div>
-  <g-carousel height="150">
-    <g-carousel-item v-for="item in 6" :key="item">
+  <Carousel height="150">
+    <CarouselItem class="g-carousel-item" v-for="item in 6" :key="item">
       <h3 style="text-align: center;vertical-align: middle;">{{ item }}</h3>
-    </g-carousel-item>
-  </g-carousel>
+    </CarouselItem>
+  </Carousel>
   <div style="width: 100%;height: 50px;text-align: center; line-height: 50px;color:#999">
     <span>trigger为hover时</span>
   </div>
-  <g-carousel height="150" trigger="hover">
-    <g-carousel-item v-for="item in 6" :key="item">
+  <Carousel height="150" trigger="hover">
+    <CarouselItem class="g-carousel-item" v-for="item in 6" :key="item">
       <h3 style="text-align: center;vertical-align: middle;">{{ item }}</h3>
-    </g-carousel-item>
-  </g-carousel>
+    </CarouselItem>
+  </Carousel>
 </template>
 
 <script lang='ts' setup>
-import GCarousel from '../../lib/Carousel/Carousel.vue';
-import GCarouselItem from '../../lib/Carousel/CarouselItem.vue'
+import Carousel from '../../lib/Carousel/Carousel.vue';
+import CarouselItem from '../../lib/Carousel/CarouselItem.vue'
 </script>
 
 <style lang='scss' scoped>
-.g-carousel-item h3 {
+h3 {
   color: #465c79;
   opacity: 0.75;
   line-height: 150px;

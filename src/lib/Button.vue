@@ -37,6 +37,7 @@ $radius: 4px;
   box-sizing: border-box;
   height: $h;
   padding: 0 12px;
+  margin: 8px;
   cursor: pointer;
   display: inline-flex;
   justify-content: center;

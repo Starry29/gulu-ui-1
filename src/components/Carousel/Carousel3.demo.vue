@@ -2,17 +2,17 @@
 支持垂直布局
 </demo>
 <template>
-  <g-carousel direction="vertical">
-    <g-carousel-item v-for="item in 6" :key="item"  >
+  <Carousel direction="vertical">
+    <CarouselItem class="g-carousel-item" v-for="item in 6" :key="item"  >
       <h3 style="text-align: center;vertical-align: middle;">{{ item }}</h3>
-    </g-carousel-item>
-  </g-carousel>
+    </CarouselItem>
+  </Carousel>
 </template>
 
 <script lang='ts' setup>
 import { onMounted } from 'vue';
-import GCarousel from '../../lib/Carousel/Carousel.vue';
-import GCarouselItem from '../../lib/Carousel/CarouselItem.vue'
+import Carousel from '../../lib/Carousel/Carousel.vue';
+import CarouselItem from '../../lib/Carousel/CarouselItem.vue'
 
 
 </script>

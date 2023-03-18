@@ -12,10 +12,10 @@ export default {
     globals: {
       vue: 'Vue'
     },
-    name: 'windmill-ui-g',
-    file: 'dist/lib/Windmill-ui-g.js',
+    name: 'windmill-ui-001',
+    file: 'dist/lib/windmill-ui-001.js',
     format: 'umd',
-    plugins: []
+    plugins: [terser()]
   }],
   plugins: [
     scss({ include: /\.scss$/, sass: dartSass }),
