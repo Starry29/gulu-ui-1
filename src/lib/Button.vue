@@ -197,11 +197,11 @@ $radius: 4px;
     border-color: #40a9ff #40a9ff #40a9ff transparent;
     border-style: solid;
     border-width: 2px;
-    animation: gulu-spin 1s infinite linear;
+    animation: g-spin 1s infinite linear;
   }
 }
 
-@keyframes gulu-spin {
+@keyframes g-spin {
   0% {
     transform: rotate(0deg)
   }

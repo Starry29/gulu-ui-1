@@ -12,8 +12,8 @@ export default {
     globals: {
       vue: 'Vue'
     },
-    name: 'windmill-ui-001',
-    file: 'dist/lib/windmill-ui-001.js',
+    name: 'windmill-ui-01',
+    file: 'dist/lib/windmill-ui-01.js',
     format: 'umd',
     plugins: [terser()]
   }],

@@ -1,10 +1,10 @@
 {
-  "name": "windmill-ui-001",
+  "name": "windmill-ui-01",
   "version": "0.0.4",
   "files": [
     "dist/lib/*"
   ],
-  "main": "dist/lib/gulu.js",
+  "main": "dist/lib/windmill-ui-01.js",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -26,5 +26,8 @@
   "peerDependencies": {
     "github-markdown-css": "4.0.0",
     "vue": "3.2.37"
+  },
+  "dependencies": {
+    "windmill-ui-01": "^0.0.4"
   }
 }

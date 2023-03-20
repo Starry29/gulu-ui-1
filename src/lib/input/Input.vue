@@ -1,6 +1,6 @@
 <template>
   <div class="g-input" :class="{'is-disabled':disabled}">
-    <input :class="{'gulu-input-disabled':disabled}" type="text" :value="value"
+    <input :class="{'g-input-disabled':disabled}" type="text" :value="value"
            :placeholder="placeholder" @input="inputDebounce"
            :disabled="disabled"/>
   </div>
@@ -56,7 +56,7 @@ export default {
   }
 }
 
-.gulu-input-disabled {
+.g-input-disabled {
   cursor: not-allowed;
   background-color: #f5f7fa;
 

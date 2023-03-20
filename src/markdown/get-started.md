@@ -5,7 +5,7 @@
 
 ```javascript
 import {Button, Input, InputPassword, InputTextArea, Switch, Carousel, 
-CarouselItem, Tag, Popover, Tabs, Tab, Dialog, openDialog} from "windmill-ui-001"
+CarouselItem, Tag, Popover, Tabs, Tab, Dialog, openDialog} from "windmill-ui-01"
 ```
 
 就可以使用我提供的组件了。
@@ -22,7 +22,7 @@ CarouselItem, Tag, Popover, Tabs, Tab, Dialog, openDialog} from "windmill-ui-001
 </template>
 <script>
 import {Button, Input, InputPassword, InputTextArea, Switch, Carousel, 
-CarouselItem, Tag, Popover, Tabs, Tab, Dialog, openDialog} from "windmill-ui-001"
+CarouselItem, Tag, Popover, Tabs, Tab, Dialog, openDialog} from "windmill-ui-01"
 export default {
   components: {Dialog}
 }
